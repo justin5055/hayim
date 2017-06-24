@@ -1,0 +1,191 @@
+body {
+    color: #292f33;
+    font: 14px/1.4em 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0
+}
+table {
+    border-collapse: collapse
+}
+td,
+th {
+    padding: 0
+}
+.field {
+    color: #000;
+    font: 1em "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 7px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+.submit {
+    background: #fe6;
+    border: 1px solid #fc4;
+    color: #000;
+    font: 1em "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow: visible;
+    padding: 7px 14px;
+    text-decoration: none
+}
+a {
+    color: #07c;
+    cursor: hand;
+    cursor: pointer;
+    text-decoration: none
+}
+a:hover {
+    color: #d04000
+}
+.u {
+    text-decoration: underline
+}
+.i {
+    font-style: italic
+}
+.b {
+    font-weight: bold
+}
+.p {
+    margin: 1em 0;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em
+}
+.small {
+    font-size: .85em
+}
+.null {
+    margin: 0;
+    padding: 0
+}
+.ellipsis-outer {
+    display: table;
+    table-layout: fixed;
+    width: 100%
+}
+.ellipsis-inner {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+.nowrap {
+    white-space: nowrap
+}
+.alignleft {
+    text-align: left
+}
+.alignright {
+    text-align: right
+}
+.aligncenter {
+    text-align: center
+}
+.valigntop {
+    vertical-align: top
+}
+.valignmiddle {
+    vertical-align: middle
+}
+.valignbottom {
+    vertical-align: bottom
+}
+.floatleft {
+    float: left !important
+}
+.floatright {
+    float: right !important
+}
+.w1 {
+    width: 1%
+}
+.w20 {
+    width: 20%
+}
+.w25 {
+    width: 25%
+}
+.w30 {
+    width: 30%
+}
+.w30 {
+    width: 40%
+}
+.w50 {
+    width: 50%
+}
+.w80 {
+    width: 80%
+}
+.w100 {
+    width: 100%
+}
+.grid {
+    border-bottom: 1px solid #eee
+}
+.grid>*>tr>th {
+    padding: 10px 5px
+}
+.grid>*>tr>td {
+    padding: 10px 5px
+}
+.item {
+    border-top: 1px solid #eee;
+    background: #fff
+}
+.excerpt {
+    background: #fafafa;
+    color: #999;
+    padding: 5px
+}
+.main-outer {
+    min-width: 300px;
+    max-width: 1020px;
+    margin: 0 auto
+}
+#menu {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0
+}
+#menu li {
+    border-bottom: 4px solid transparent;
+    float: left;
+    padding: 5px
+}
+#menu li.select {
+    border-bottom-color: #07c
+}
+#menu a {
+    display: block;
+    padding: 5px
+}
+@media (max-width: 600px) {
+    .mob-hide {
+        display: none
+    }
+    .mob-nowrap {
+        white-space: normal
+    }
+    .mob-size {
+        text-align: center;
+        vertical-align: middle;
+        min-width: 32px !important;
+        min-height: 32px !important
+    }
+}
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px
+}
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, .2)
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 100, 200, .8)
+}
