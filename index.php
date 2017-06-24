@@ -1,5 +1,5 @@
 <?php
-define('SHORTURL', 'http://SITEURL'); //Your sites URL with http://
+define('SHORTURL', 'http://SITEURL/'); //Your sites URL with http://
 define('SHORTFURL', true);
 define('PASSWORD', md5('12345')); //change password for administration
 define('FILENAME', 'db.sqlite'); // SQLite DB File
